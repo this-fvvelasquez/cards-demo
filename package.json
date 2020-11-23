@@ -1,0 +1,21 @@
+{
+	"name": "cards-demo",
+	"version": "0.0.1",
+	"description": "Servidor API REST express que sirve un catalogo de CARDS desde un db.json con axios y JS.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"javascript",
+		"express",
+		"node",
+		"axios",
+		"rest"
+	],
+	"author": "fvvelasquez this.fvvelasquez@gmail.com",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}

@@ -1,0 +1,79 @@
+html,
+body {
+	height: 100%;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+}
+
+/* ---------------------------- */
+/* NAV */
+/* ---------------------------- */
+/* ---------------------------- */
+.logo {
+	font-family: monospace;
+	font-size: 21px;
+	color: #ccc;
+}
+ul {
+	list-style: none;
+	display: inline;
+	padding-left: 20px;
+}
+li {
+	display: inline;
+}
+/* ---------------------------- */
+a {
+	text-decoration: none;
+	color: rgb(26, 20, 31);
+}
+a:hover,
+.selected {
+	text-shadow: 1px 1px 2px rgb(124, 240, 255);
+}
+.selected {
+	font-weight: bold;
+	text-shadow: 0px 0px 0px rgb(124, 240, 255);
+}
+/* ---------------------------- */
+
+/* ---------------------------- */
+/* CATALOGUE CARD */
+/* ---------------------------- */
+/* ---------------------------- */
+#elements {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	overflow: hidden;
+}
+.card {
+	flex-grow: 1;
+	max-width: 200px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px;
+	overflow: hidden;
+}
+#elements img {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px 10px 0px 0px;
+}
+.title {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.text {
+	padding: 0px 10px 0px 10px;
+}
+/* ---------------------------- */
+
+/* ---------------------------- */
+/* ---------------------------- */
+.about {
+	margin-top: 30px;
+	margin-left: 70px;
+}
+/* ---------------------------- */
